@@ -28,7 +28,7 @@ public:
     Pong(sf::RenderWindow *win) : width(win->getSize().x), height(win->getSize().y)
     {
         window = win;
-        sf::CircleShape ( 5.f);
+        sf::CircleShape( 5.f);
     }
 
     void Game()
